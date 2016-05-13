@@ -1,0 +1,24 @@
+ $(function() {
+  var body = $('body');
+  var backgrounds = [
+   'url(https://pp.vk.me/c630524/v630524724/2b0b3/OfmBqPYliOo.jpg)',
+   'url(https://pp.vk.me/c630524/v630524724/2b0bc/IrUSPOMKteI.jpg)',
+   'url(https://pp.vk.me/c630524/v630524724/2b08f/hUrUxP2Tqbw.jpg)',
+   'url(https://pp.vk.me/c630524/v630524724/2b0a1/IQs0qDplIFc.jpg)',
+   'url(https://pp.vk.me/c630524/v630524724/2b098/sMKKNFv8Ztc.jpg)',
+   'url(https://pp.vk.me/c630524/v630524724/2b086/AIYr_psPlQs.jpg)',
+   'url(https://pp.vk.me/c630524/v630524724/2b0c5/4Y62dRd4F4A.jpg)',
+   ];
+var current = 0;
+
+function nextBackground() {
+  body.css(
+   'background',
+    backgrounds[current = ++current % backgrounds.length]
+ );
+
+ setTimeout(nextBackground, 5000);
+ }
+ setTimeout(nextBackground, 5000);
+   body.css('background', backgrounds[0]);
+ });

@@ -1,0 +1,10 @@
+
+
+<div class="content">
+<%= @photo.title %></h2>
+<%= link_to image_tag(@photo.image.url, alt: @photo.title, class: 'img-thumbnail'),
+                  @photo.image.url, target: '_blank' %>
+
+</div>
+<%#= link_to 'Edit', edit_note_path(@photo) %>
+<%= link_to 'назад', photos_path %>

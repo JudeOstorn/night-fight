@@ -1,0 +1,54 @@
+
+<header>
+
+<!--Часы начало-->
+<div id="time">00:00:00</div> 
+<script type="text/javascript"> 
+setInterval(function () { 
+date = new Date(), 
+h = date.getHours(), 
+m = date.getMinutes(), 
+s = date.getSeconds(), 
+h = (h < 10) ? '0' + h : h, 
+m = (m < 10) ? '0' + m : m, 
+s = (s < 10) ? '0' + s : s, 
+document.getElementById('time').innerHTML = h + ':' + m + ':' + s; 
+}, 1000); 
+</script>
+<!--Часы конец-->
+
+  <div class="container">
+<%=link_to image_tag("LoL.png",class: "logo",size: "370x140",alt: "image faled"), root_path %>
+
+ 
+
+
+
+  
+
+<div class="navbar">
+ 
+<div class="cont2">
+   <ul>
+
+    <li><a href="/">Главная</a></li>
+    <li><a href="/">Игроки</a></li>
+    <li><a href="/news">Новости</a></li>
+    <li><a href="/media">Медиа файлы</a></li>
+    <li><a href="/chat">Чат</a></li>
+  </ul>
+
+  </div>
+
+</div>
+
+  </div>
+
+
+
+</header>
+
+<p></p>
+
+<%#= link_to "Ночное рубалово", root_path, id: "logo" %>
+<%#=link_to image_tag("q5W3ruFzuNE.jpg",size: "390x160",alt: "image faled"), root_path %>
