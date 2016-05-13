@@ -24,8 +24,6 @@ validates_size_of :image, maximum: 500.kilobytes,
 validates_property :format, of: :image, in: [:jpeg, :jpg, :png, :bmp], case_sensitive: false,
                    message: "should be either .jpeg, .jpg, .png, .bmp", if: :image_changed?
 
-#validates_property :width, of: :image, in: (0..400),
-                           #message: proc{ |actual, model| "Unlucky #{model.title} - was #{actual}" }
 
 
 end
