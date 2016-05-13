@@ -5,11 +5,7 @@ class Photo < ActiveRecord::Base
    after_assign do |img|
     img.encode!('jpg', '-quality 80') if img.image?
    end
-=begin
-   after_assign do |img|
-    img.rotate!(90) # 90 is the amount of degrees to rotate
-   end
-=end
+
 end
 
 if defined?(ActiveRecord::Base)
