@@ -1,0 +1,492 @@
+/* line 2, /home/jude/rails_programs/night_fight/app/assets/stylesheets/body.css.scss */
+body {
+  background: #999 url("6.jpg") no-repeat center center fixed;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  transition: background 1s;
+  font-family: FrizQuadrataCTT;
+}
+@charset "UTF-8";
+/* line 4, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+body {
+  background: #999 url("4.jpg") no-repeat center center fixed;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  transition: background 1s;
+  font-family: FrizQuadrataCTT;
+}
+
+/* line 15, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+footer {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #000;
+  color: #888;
+}
+/* line 24, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+footer a {
+  color: #D0C30E;
+}
+/* line 26, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+footer a:hover {
+  color: #D0C30E;
+}
+/* line 30, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+footer small {
+  float: left;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+/* line 34, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+footer ul {
+  float: right;
+  list-style: none;
+}
+/* line 38, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+footer ul li {
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 53, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.navbar {
+ /*
+ width: 500px;
+ height: 50px;
+*/
+  float: center;
+  text-align: center;
+  width: 625px;
+  height: 50px;
+  margin-left: 20%;
+  background: #3a3a3a;
+  /* Старые браузеры */
+  background: -moz-linear-gradient(top, #3a3a3a 0%, #3a3a3a 50%, #2b2b2b 51%, #2b2b2b 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3a3a3a), color-stop(50%, #3a3a3a), color-stop(51%, #2b2b2b), color-stop(100%, #2b2b2b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #3a3a3a 0%, #3a3a3a 50%, #2b2b2b 51%, #2b2b2b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #3a3a3a 0%, #3a3a3a 50%, #2b2b2b 51%, #2b2b2b 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #3a3a3a 0%, #3a3a3a 50%, #2b2b2b 51%, #2b2b2b 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #3a3a3a 0%, #3a3a3a 50%, #2b2b2b 51%, #2b2b2b 100%);
+  /* W3C */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#3a3a3a', endColorstr='#2b2b2b', GradientType=0);
+  /* IE6-9 */
+  /*
+  margin: 20px auto 40px;
+  */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  border-top: 1px solid #363636;
+  border-left: 1px solid #363636;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+
+/* line 102, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.navbar ul {
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 109, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.navbar ul li {
+  display: inline;
+  float: left;
+  width: 125px;
+  height: 50px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #999999;
+  line-height: 50px;
+  border-right: 1px solid #363636;
+  border-left: 1px solid #000000;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 125, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.navbar ul li a {
+  width: 125px;
+  height: 100px;
+  display: inline-block;
+}
+
+/* line 130, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.navbar ul li:first-child {
+  border-left: none;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+/* line 136, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.navbar ul li:last-child {
+  border-right: none;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/*
+.navbar .hover {
+ background: #7DCBE0;
+ color: #333333;
+ display: block;
+}
+*/
+/* line 149, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.navbar.small {
+  height: 33.333333333333336px;
+}
+
+/* line 152, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.navbar.small ul li {
+  height: 33.333333333333336px;
+  line-height: 33.333333333333336px;
+}
+
+/* line 156, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.navbar.toolbar {
+  width: 180px;
+  height: 33.333333333333336px;
+}
+
+/* line 160, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.navbar.toolbar ul li {
+  height: 33.333333333333336px;
+  line-height: 33.333333333333336px;
+}
+
+/* line 164, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+a {
+  color: #999999;
+  text-decoration: none;
+  font-size: 14pt;
+}
+
+/* line 169, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+a:hover {
+  color: #999999;
+}
+
+/* line 175, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.container {
+  position: static;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 3%;
+  /* Отступ слева */
+  width: 90%;
+  /* Ширина слоя */
+   /*border-left: 5px solid #92721A;
+   border-right: 5px solid #92721A;
+   border-top: 5px solid #92721A;
+
+border-bottom: 5px solid #000;*/
+  background: #000 url("luxfon.com-5382_2.jpg") no-repeat center center fixed;
+  margin-top: 0%;
+  /*opacity: 0.91;*/
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 62px 16px black;
+  -moz-box-shadow: 0px 0px 62px 16px black;
+  box-shadow: 0px 0px 62px 16px black;
+  /* Параметры тени box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     box-shadow: inset 0 0 0 5px rgba(255,255,255,0), 0 5px 12px -3px rgba(255,255,255,255);*/
+}
+
+/* line 200, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.cont2 {
+  text-align: center;
+}
+
+/* line 206, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.logo {
+  position: static;
+  margin-left: -14%;
+}
+
+/* line 213, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+#photos-list {
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  clear: both;
+}
+/* line 220, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+#photos-list li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 250px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* line 227, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+#photos-list li p {
+  margin: 0;
+  margin-top: 10px;
+  height: 40px;
+  overflow: hidden;
+}
+
+/* line 237, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+#errors_full_text {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/* line 240, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+#errors_full_text h2 {
+  font-size: 18px;
+}
+
+/*
+
+  #navbar {
+    position: relative;
+      height: 30%;
+      
+  }
+
+
+.nav {
+  position: relative;
+  margin: 0px 0;
+  }
+
+
+
+
+.nav ul {
+   display: inline;
+ float: left;
+ width: 125px;
+ height: 50px;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+ color: #999999;
+ line-height: 50px;
+ border-right: 1px solid #363636;
+ border-left: 1px solid #000000;
+ overflow: hidden;
+ margin: 0;
+ padding: 0;
+  } 
+
+.nav li {
+  margin: 0 5px 10px 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  }
+.nav a {
+  padding: 3px 12px;
+  text-decoration: none;
+  color: gold;
+  line-height: 100%;
+  }
+.nav a:hover {
+  color: #000;
+  }
+.nav .current a {
+  background: #999;
+  color: #fff;
+  border-radius: 5px;
+  }
+
+.navcont{
+  float: left;
+    margin-bottom: 10px;
+    background-color: #000;
+    margin-right:70% ;
+    margin-left:2% ;
+    margin-top:0% ;
+    border: 1px solid #000;
+    opacity: 0.9;
+  }
+
+
+
+.nav.right ul {
+  text-align: right;
+  }
+
+
+.nav.center ul {
+  text-align: center;
+  }
+*/
+/*
+#nav li {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20pt;
+      color: gold;
+      border-right: 1px solid #000; 
+      border-left: 100px;
+    }
+
+
+
+  a{
+       color: orange;
+       text-decoration: none;
+   }
+   a:link{
+    color: orange;
+   }
+    a:visited{
+       color: gold;
+   }
+   a:hover{
+       color: gold;
+       text-decoration: underline;
+   }
+   a:active{
+       color: red;
+    } 
+
+
+
+*/
+/* line 367, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+a:visited {
+  color: gold;
+}
+
+/* line 371, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.content {
+  margin-left: 17%;
+  /* Отступ слева */
+  margin-right: 17%;
+  /*-webkit-box-shadow: 0px 0px 62px 8px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 62px 8px rgba(0,0,0,1);
+  box-shadow: 0px 0px 62px 8px rgba(0,0,0,1);*/
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 0px;
+}
+
+/* line 382, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+#centerLayer {
+  margin-left: 3%;
+  /* Отступ слева */
+  width: 90%;
+  /* Ширина слоя */
+  background: #000 url("luxfon.com-5382_2.jpg") no-repeat center center fixed;
+  /* Цвет фона */
+  padding: 10px;
+  /* Поля вокруг текста */
+  /*opacity: 0.91;*/
+  /* border-left: 5px solid #00010E;
+   border-right: 5px solid #00010E;
+
+   border-top: 5px solid #000;
+
+   border-bottom: 5px solid #00010E;*/
+  -moz-border-left-image: url("border.png") 130 repeat;
+  /* Firefox 4 */
+  -webkit-border-left-image: url("border.png") 130 repeat;
+  /* Safari 5 и Chrome */
+  -o-border-left-image: url("border.png") 130 repeat;
+  /* Opera 10.5 */
+  border-left-image: url("border.png") 130 repeat;
+  /* CSS3 */
+  -webkit-box-shadow: 0px 18px 62px 16px black;
+  -moz-box-shadow: 0px 18px 62px 16px black;
+  box-shadow: 0px 18px 62px 16px black;
+ /* Параметры тени  box-shadow: 0 0 100px rgba(0,0,0,0.9);
+box-shadow: inset 0 0 0 5px rgba(0,0,0,0), 0 5px 12px -3px rgba(255,255,255,1);*/
+}
+
+/* line 407, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+.cont {
+  margin-left: 17%;
+  /*width: 10%;
+  -webkit-box-shadow: 0px 0px 62px 16px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 62px 16px rgba(0,0,0,1);
+  box-shadow: 0px 0px 62px 16px rgba(0,0,0,1);*/
+}
+
+/* line 417, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+#time {
+  margin-left: 5%;
+  margin-top: 0%;
+  float: left;
+  font-size: 18pt;
+  font-family: FrizQuadrataCTT;
+  color: red;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+/* typography */
+/* line 429, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+/* line 433, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: gold;
+  opacity: 1;
+}
+
+/* line 442, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: gold;
+}
+
+/* line 451, /home/jude/rails_programs/night_fight/app/assets/stylesheets/custom.css.scss */
+p {
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+  color: gold;
+  font-size: 1em;
+  line-height: 1em;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

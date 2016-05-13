@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 #ruby '2.2.4'
 
-gem 'puma'
+
 
 gem 'font-awesome-sass' #шрифты
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
