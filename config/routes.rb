@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   
 
     
-root  'main_page#home'
+  root  'main_page#home'
 
   match '/about', to: 'main_page#about', via: 'get'
   match '/contact', to: 'main_page#contact', via: 'get'
